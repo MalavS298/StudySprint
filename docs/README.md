@@ -30,6 +30,7 @@ python -m unittest
 ## Team
 
 - Malav (building StudySprint)
+- Aarav (building StudySprint)
 
 
 ## Where to start
