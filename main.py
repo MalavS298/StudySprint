@@ -17,7 +17,6 @@ def show_menu():
     print("5) Show the last card")
     print("6) Category breakdown")
     print("7) Deck summary")
-    print("8) View score history")
     print("0) Quit")
 
 
@@ -58,9 +57,6 @@ def main():
             print(core.count_by_category(core.get_cards(data)))
         elif choice == "7":
             print(reports.deck_summary(data))
-        elif choice == "8":
-            print("History from past runs")
-            print(data["history"])
         else:
             print("Please pick a number from the menu.")
 
