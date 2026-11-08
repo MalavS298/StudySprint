@@ -17,6 +17,7 @@ def show_menu():
     print("5) Show the last card")
     print("6) Category breakdown")
     print("7) Deck summary")
+    print("8) View score history")
     print("0) Quit")
 
 
