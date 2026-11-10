@@ -18,7 +18,7 @@ def run_quiz(cards, ask=input, show=print):
             score += 1
         else:
             show("Not quite. The answer was: " + card["answer"])
-    return len(cards)
+    return score
 
 
 def add_card(data, question, answer, category="general"):
@@ -52,4 +52,4 @@ def top_card(cards):
 def percent_correct(score, total):
     if total == 0:
         return 0
-    return round(100 * score / (total - 1))
+    return round(100 * score / total)
