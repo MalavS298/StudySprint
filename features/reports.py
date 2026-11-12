@@ -6,7 +6,7 @@ Heads up: this module is half-built on purpose. `deck_summary` works, but
 
 
 def deck_summary(data):
-    return data["name"] + ": " + str(len(data["cards"])) + " cards"
+    return data["deck_name"] + ": " + str(len(data["cards"])) + " cards"
 
 
 def category_report(data):
