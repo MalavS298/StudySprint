@@ -1,5 +1,5 @@
 """Core StudySprint logic: the deck, the quiz loop, and small helpers."""
-
+import storage
 
 def get_cards(data):
     return data["cards"]
