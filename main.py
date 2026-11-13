@@ -37,6 +37,7 @@ def main():
             cards = core.get_cards(data)
             score = core.run_quiz(cards)
             total = len(cards)
+            core.past_scores(data, score)
             print("You scored " + str(score) + "/" + str(total) +
                   " (" + str(core.percent_correct(score, total)) + "%).")
         elif choice == "2":
